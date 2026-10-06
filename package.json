@@ -1,0 +1,17 @@
+{
+  "name": "visuals",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 8080",
+    "osc": "node server/index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "osc": "^2.4.5",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.7"
+  }
+}

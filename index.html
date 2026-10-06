@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>visuals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=IM+Fell+English:ital@0;1&family=Italianno&family=UnifrakturMaguntia&display=swap" rel="stylesheet" />
+    <style>
+      html, body { margin: 0; height: 100%; background: #675210; overflow: hidden; }
+      .stage {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      canvas {
+        width: 100vw;
+        height: 56.25vw;
+        max-height: 100vh;
+        max-width: 177.78vh;
+        display: block;
+        background: #C7C4B8;
+      }
+      .hud {
+        position: absolute;
+        left: 1rem;
+        bottom: 1rem;
+        font: 13px/1.4 Palatino, "Iowan Old Style", serif;
+        color: #675210;
+        background: rgba(199, 196, 184, 0.82);
+        padding: 0.7rem 0.9rem;
+        max-width: min(56rem, calc(100vw - 2rem));
+      }
+      .kicker {
+        font-size: 0.7rem;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        margin: 0 0 0.45rem;
+        color: #FDB73F;
+      }
+      .row { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+      .row button {
+        font: inherit;
+        font-size: 0.72rem;
+        border: 1px solid rgba(103, 82, 16, 0.35);
+        background: transparent;
+        color: #675210;
+        padding: 0.4rem 0.55rem;
+        min-height: 44px;
+        cursor: pointer;
+      }
+      .row button.on { background: #675210; color: #C7C4B8; }
+      .hint { margin: 0.5rem 0 0; font-size: 0.72rem; opacity: 0.75; }
+    </style>
+  </head>
+  <body>
+    <div class="stage">
+      <canvas id="canvas" width="1920" height="1080"></canvas>
+      <div class="hud">
+        <p class="kicker">ornamental drafting engine</p>
+        <div class="row" id="buttons"></div>
+        <p class="hint">Keys 0–6 · OSC /scene i 0–6 · terminal well at centre</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

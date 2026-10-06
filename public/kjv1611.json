@@ -1,0 +1,102 @@
+{
+  "edition": "The Holy Bible, King James Authorised Version, 1611",
+  "spelling": "early modern English as printed 1611",
+  "note": "Add further passages here. Keep 1611 spelling (Iohn, Sonne, beleeueth, heauen, &c.). Scene 4 reads this file on load.",
+  "passages": [
+    {
+      "id": "genesis-1-1-8",
+      "book": "The First Booke of Moses, called Genesis",
+      "running": "Genesis",
+      "chapter": 1,
+      "head": "The creation of Heauen and Earth, 3 of the light, 6 of the firmament.",
+      "verses": [
+        { "n": 1, "text": "In the beginning God created the Heauen, and the Earth." },
+        { "n": 2, "text": "And the earth was without forme, and voyd, and darkenesse was vpon the face of the deepe: and the Spirit of God mooued vpon the face of the waters." },
+        { "n": 3, "text": "And God said, Let there be light: and there was light." },
+        { "n": 4, "text": "And God saw the light, that it was good: and God diuided the light from the darkenesse." },
+        { "n": 5, "text": "And God called the light, Day, and the darknesse he called Night: and the euening and the morning were the first day." },
+        { "n": 6, "text": "And God said, Let there be a firmament in the midst of the waters: and let it diuide the waters from the waters." },
+        { "n": 7, "text": "And God made the firmament; and diuided the waters, which were vnder the firmament, from the waters, which were aboue the firmament: and it was so." },
+        { "n": 8, "text": "And God called the firmament, Heauen: and the euening and the morning were the second day." }
+      ]
+    },
+    {
+      "id": "john-1-1-14",
+      "book": "The Gospel according to S. Iohn",
+      "running": "S. Iohn.",
+      "chapter": 1,
+      "head": "The diuinitie, humanitie, and office of Iesus Christ.",
+      "verses": [
+        { "n": 1, "text": "In the beginning was the Word, and the Word was with God, and the Word was God." },
+        { "n": 2, "text": "The same was in the beginning with God." },
+        { "n": 3, "text": "All things were made by him, and without him was not any thing made that was made." },
+        { "n": 4, "text": "In him was life, and the life was the light of men." },
+        { "n": 5, "text": "And the light shineth in darknesse, and the darknesse comprehended it not." },
+        { "n": 14, "text": "And the Word was made flesh, and dwelt among vs (and we beheld his glory, the glory as of the onely begotten of the Father) full of grace and trueth." }
+      ]
+    },
+    {
+      "id": "john-3-16",
+      "book": "The Gospel according to S. Iohn",
+      "running": "S. Iohn.",
+      "chapter": 3,
+      "head": "Christ teacheth Nicodemus the necessitie of regeneration.",
+      "verses": [
+        { "n": 16, "text": "For God so loued the world, that he gaue his only begotten Sonne: that whosoeuer beleeueth in him, should not perish, but haue euerlasting life." }
+      ]
+    },
+    {
+      "id": "psalm-23",
+      "book": "The Booke of Psalmes",
+      "running": "Psalmes.",
+      "chapter": 23,
+      "head": "Dauids confidence in Gods grace.",
+      "verses": [
+        { "n": 1, "text": "The Lord is my shepheard, I shall not want." },
+        { "n": 2, "text": "He maketh me to lie downe in greene pastures: he leadeth mee beside the still waters." },
+        { "n": 3, "text": "He restoreth my soule: he leadeth me in the pathes of righteousnes, for his names sake." },
+        { "n": 4, "text": "Yea though I walke through the valley of the shadowe of death, I will feare no euill: for thou art with me, thy rod and thy staffe, they comfort me." }
+      ]
+    },
+    {
+      "id": "acts-16-31",
+      "book": "The Actes of the Apostles",
+      "running": "Actes.",
+      "chapter": 16,
+      "head": "The conversion of the Iaylour.",
+      "verses": [
+        { "n": 31, "text": "And they saide, Beleeue on the Lord Iesus Christ, and thou shalt be saued, and thy house." }
+      ]
+    },
+    {
+      "id": "john-8-44",
+      "book": "The Gospel according to S. Iohn",
+      "running": "S. Iohn.",
+      "chapter": 8,
+      "head": "Christ answereth the Iewes that boasted of Abraham.",
+      "verses": [
+        { "n": 44, "text": "Ye are of your father the deuill, and the lusts of your father ye will doe: hee was a murtherer from the beginning, and abode not in the trueth, because there is no trueth in him. When he speaketh a lie, he speaketh of his owne: for he is a liar, and the father of it." }
+      ]
+    },
+    {
+      "id": "2cor-11-14",
+      "book": "The Second Epistle of Paul the Apostle to the Corinthians",
+      "running": "II. Cor.",
+      "chapter": 11,
+      "head": "Hee sheweth the false apostles to be deceitfull workers.",
+      "verses": [
+        { "n": 14, "text": "And no marueile, for Satan himselfe is transformed into an Angel of light." }
+      ]
+    },
+    {
+      "id": "isaiah-40-22",
+      "book": "The Booke of the Prophet Isaiah",
+      "running": "Isaiah.",
+      "chapter": 40,
+      "head": "The prophet incourageth the people with the greatnesse of God.",
+      "verses": [
+        { "n": 22, "text": "It is he that sitteth vpon the circle of the earth, and the inhabitants thereof are as grashoppers; that stretcheth out the heauens as a curtaine, and spreadeth them out as a tent to dwel in:" }
+      ]
+    }
+  ]
+}
