@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Local environment configuration
+.grok/
+
+# Generated bundle
+public/stage-bundle.js
+
+# Build output
+dist/
+coverage/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+.cache/

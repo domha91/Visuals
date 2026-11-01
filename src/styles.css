@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "KJV1611";
+  src: url("/fonts/KJV1611.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NanumGothic";
+  src: url("/fonts/NanumGothic-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NanumGothic";
+  src: url("/fonts/NanumGothic-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "NanumGothic";
+  src: url("/fonts/NanumGothic-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  background: #675210;
+  overflow: hidden;
+}
+
+.stage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #675210;
+}
+
+.frame {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame canvas {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  background: #c7c4b8;
+}
+
+.hud {
+  position: relative;
+  flex: none;
+  margin: 0.35rem 0.8rem 0.55rem;
+  font-family: "NanumGothic", system-ui, sans-serif;
+  font-size: 13px;
+  line-height: 1.35;
+  color: #675210;
+  background: rgba(199, 196, 184, 0.9);
+  padding: 0.45rem 0.7rem 0.5rem;
+  max-width: calc(100vw - 1.6rem);
+}
+
+.kicker {
+  font-family: "KJV1611", serif;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.45rem;
+  color: #fdb73f;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.row button {
+  font-family: "NanumGothic", system-ui, sans-serif;
+  font-size: 0.72rem;
+  border: 1px solid rgba(103, 82, 16, 0.35);
+  background: transparent;
+  color: #675210;
+  padding: 0.4rem 0.55rem;
+  min-height: 44px;
+  cursor: pointer;
+}
+
+.row button.on {
+  background: #675210;
+  color: #c7c4b8;
+  font-weight: 700;
+}
+
+.hint {
+  margin: 0.5rem 0 0;
+  font-size: 0.72rem;
+  opacity: 0.75;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
